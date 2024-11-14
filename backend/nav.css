@@ -1,0 +1,49 @@
+body{
+    background-color: aliceblue;
+}
+.carousel-image{
+    /* height: 100vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.carousel-inner img{
+    /* width: 60%; */
+    height: 95vh;
+    width: 90vh;
+    /* background-position: center; */
+    transition-duration: .1s;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.carousel-inner > .carousel-item > img {
+    /* margin-left: 40px;
+    margin-right: 40px; If you have images of very different sizes.    */
+    max-width: 100%; }
+.nav{
+    background-color: rgb(38, 242, 242);
+}
+.sec-section{
+    /* margin-top: 100px; */
+    justify-content: center;
+    background-color: rgba(159, 149, 149, 0.027);
+}
+.card{
+    padding: auto;
+    margin-right: 13px;
+}
+.cd,.cd1{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.cd1{
+    justify-content: center;
+}
+.card img {
+    max-width: 100%;
+    height: 170px;
+  }
